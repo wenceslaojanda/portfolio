@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    height: 3rem;
+    background-color: #a2d5f3;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    width: 100%;
+    gap: .5rem;
+  }
+  
+  .footer a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.4);
+  }
+  
+  .footer .social{
+    margin-top: 1px;
+    opacity: 0.4;
+  }
+  
+
+  @media screen and (min-width: 1024px) {
+    .footer .social:hover{
+      opacity: 1;
+    } 
+
+    .footer a:hover{
+      color:rgba(0, 0, 0, 1);
+    }
+}

@@ -1,0 +1,57 @@
+.studies {
+    background-color: #EAF2FD;
+}
+
+.studies__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.studies__box {
+    background-color: aliceblue;
+}
+
+.studies__card {
+    align-items: center;
+}
+
+.studies__img {
+    height: 100px;
+    width: 100px;
+}
+
+.studies__text {
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .studies__container {
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+    }
+
+    .studies__img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .studies__text p {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .studies__img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .studies__box:hover {
+        box-shadow: 2px 3px 20px grey;
+        transform: scale(1.1);
+        transition: 0.3s;
+        border-radius: 20%;
+    }
+}
+
