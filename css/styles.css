@@ -1,0 +1,92 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+section {
+    padding: 6rem 0 6rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    padding-top: 3px;
+    border-bottom: 2px solid #aae2ec;
+} 
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid aliceblue;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background-color: aliceblue;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.button {
+        background: linear-gradient(to left, #CCEFF5, white);    
+        padding: 1rem;
+        color: #65d8ec;
+        border-radius: .5rem;
+}
+
+.fa-html5{
+    color: #E55F28;
+}
+
+.fa-css3-alt{
+    color: #06A2D8;
+}
+
+.fa-js-square{
+    color: #F1D100;;
+}
+
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 1080px;
+    }
+
+    section {
+        padding: 5rem 0 5rem 0;
+    }
+
+    .button:hover {
+        box-shadow: 1px 2px 8px grey;
+        font-weight: 500;
+        transform: scale(.95);
+        transition: 0.7s;
+    }
+}

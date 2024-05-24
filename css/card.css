@@ -1,0 +1,45 @@
+body {
+    background: #EAF2FD;
+}
+
+.container {
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    background: #f5f5f5;
+    box-shadow: 1px 2px 4px lightgray;
+    border-radius: .5rem;
+}
+
+.card i{
+    font-size: 4rem;
+    color: lightgreen;   
+    opacity: .7;
+}
+
+.title::after {
+    border-bottom: none;
+}
+
+.button {
+    background:#EAF2FD;
+    color: rgb(103, 172, 103);
+    display: none;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: gray
+}
+
